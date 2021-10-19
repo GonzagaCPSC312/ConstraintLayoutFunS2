@@ -20,9 +20,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onButtonClick(View v) {
-        Button b = (Button) v;
+//        Button b = (Button) v;
 //        String text = b.getText().toString();
-        String text = b.getTag().toString();
+        String text = v.getTag().toString();
         Toast.makeText(this, "Hello from button " + text, Toast.LENGTH_SHORT).show();
     }
 }
